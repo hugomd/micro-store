@@ -29,14 +29,16 @@ app.get('/:pasteId', (req, res) => {
 
 app.put('/:pasteId', (req, res) => {
   const pasteId = req.params.pasteId
+  const pasteUrl = `${req.protocol}://${req.headers.host}/${pasteId}`
   cache.put(pasteId, req.body, TWENTY_FOUR_HOURS)
-  res.send({ pasteId })
+  res.send({ pasteId, pasteUrl })
 })
 
 app.post('/', (req, res) => {
   const pasteId = uuid()
+  const pasteUrl = `${req.protocol}://${req.headers.host}/${pasteId}`
   cache.put(pasteId, req.body, TWENTY_FOUR_HOURS)
-  res.send({ pasteId })
+  res.send({ pasteId, pasteUrl })
 })
 
 app.listen(3000, () => {
