@@ -1,0 +1,19 @@
+{
+  "name": "micro-paste",
+  "version": "1.0.0",
+  "description": "A microservice for hosting temporary pastes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/micro-paste.git"
+  },
+  "author": "Hugo Muller-Downing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/micro-paste/issues"
+  },
+  "homepage": "https://github.com/hugomd/micro-paste#readme"
+}
