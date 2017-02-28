@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugomd/micro-paste.git"
+    "url": "git+https://github.com/hugomd/micro-store.git"
   },
   "now": {
     "alias": [
@@ -20,9 +20,9 @@
   "author": "Hugo Muller-Downing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hugomd/micro-paste/issues"
+    "url": "https://github.com/hugomd/micro-store/issues"
   },
-  "homepage": "https://github.com/hugomd/micro-paste#readme",
+  "homepage": "https://github.com/hugomd/micro-store#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
