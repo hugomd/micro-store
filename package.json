@@ -11,6 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/hugomd/micro-paste.git"
   },
+  "now": {
+    "alias": [
+      "object.now.sh",
+      "store.now.sh"
+    ]
+  },
   "author": "Hugo Muller-Downing",
   "license": "MIT",
   "bugs": {
